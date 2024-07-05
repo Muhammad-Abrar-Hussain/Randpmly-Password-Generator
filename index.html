@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="pass-gen">
+        <h1>Generate a <br><span id="random">random password</span></h1>
+        <p>Never use an insecure password again</p>
+        <div id="inputbtndiv">
+            <input type="number" min="1" placeholder="Ener password length" id="input-ele">
+            <button id="pass-btn" onclick="passwordcall()">Generate passwords</button>
+        </div>
+        
+        
+        <hr>
+        <div id = "pass-out">
+            <p class="password-style " id="password-one"></p>
+            <p class="password-style "  id="password-two"></p>
+        </div>
+        
+
+
+        <script src="index.js"></script>
+    </div>
+</body>
+</html>
